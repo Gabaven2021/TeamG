@@ -1,0 +1,19 @@
+img {
+    height: 190px;
+}
+
+.candidate {
+    display: flex;
+    max-width: 600px;
+    border: solid 1px #000000;
+}
+
+ul {
+    list-style: none;
+    
+}
+
+li {
+    overflow-wrap: break-all;
+    margin: 10px 0;
+}
