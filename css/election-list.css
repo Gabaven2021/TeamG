@@ -2,7 +2,7 @@
 
 /* ユニバーサルセレクタで余白リセット */
 * {
-	margin: 5;
+	margin: 3;
 	padding: 5;
 }
 
@@ -21,7 +21,7 @@ main {
   
 .box11{
     padding: 0.5em 1em;
-    margin: 6em;
+    margin: 2em 5em;
     color: #5d627b;
     background: white;
     border-top: solid 5px #5d627b;
@@ -35,8 +35,8 @@ main {
 
 .box12{
     padding: 1em 1em;
-    margin: 5em;
-    color: #5d627b;
+    margin: 2em 5em;
+    color: #465499;
     background: white;
     border-top: solid 5px #5d627b;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
@@ -46,3 +46,7 @@ main {
     margin: 5; 
     padding: 0;
 }
+
+a {
+    text-decoration: none;
+  }
