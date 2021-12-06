@@ -2,7 +2,7 @@
 
 /* ユニバーサルセレクタで余白リセット */
 * {
-	margin: 3;
+	margin: 5;
 	padding: 5;
 }
 
@@ -17,6 +17,7 @@ main {
 
 .parent {
     display: flex;
+    margin: 0em;
   }
   
 .box11{
