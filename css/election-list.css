@@ -1,10 +1,5 @@
 @charset "utf-8";
 
-/* ユニバーサルセレクタで余白リセット */
-* {
-	margin: 5;
-	padding: 5;
-}
 
 body {
 	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
@@ -13,6 +8,7 @@ body {
 
 main {
     display: flex;
+    margin: 2em 4em;
 }
 
 .parent {
@@ -22,7 +18,7 @@ main {
   
 .box11{
     padding: 0.5em 1em;
-    margin: 2em 5em;
+    margin: 2em 4em;
     color: #5d627b;
     background: white;
     border-top: solid 5px #5d627b;
@@ -51,3 +47,5 @@ main {
 a {
     text-decoration: none;
   }
+
+  
