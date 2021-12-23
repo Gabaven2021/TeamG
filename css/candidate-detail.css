@@ -1,11 +1,19 @@
-span.sample2 {
+span.sample1 {
     font-family: "Times New Roman";
 }
+h2{
+  color:#494949
+}
+.seotext_01 {
+  border-bottom:solid;
+  border-color:#295890;
+  border-width:3px;/*3ピクセルの太さにする*/
+  }
 h3 {
     padding: 0.25em 0.5em;/*上下 左右の余白*/
     color: #494949;/*文字色*/
     background: transparent;/*背景透明に*/
-    border-left: solid 5px #7db4e6;/*左線*/
+    border-left: solid 5px #295890;/*左線*/
   }
   table.company {
     width: 500px;
@@ -69,3 +77,17 @@ h3 {
     width: 360px;
     padding-left: 20px;
     }
+  .box2 {
+      padding: 0.5em 1em;
+      margin: 1em 0;
+      font-weight: normal;
+      color:#494949 ;/*文字色*/
+      background: #FFF;
+      border: solid 1px#494949 ;/*線*/
+      border-radius: 10px;/*角の丸み*/
+  }
+  .box2 p {
+      margin: 0; 
+      padding: 0;
+  }
+  
