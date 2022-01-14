@@ -8,12 +8,10 @@ body {
 
 main {
     display: flex;
-    margin: 2em 4em;
 }
 
 .parent {
     display: flex;
-    margin: 0em;
   }
   
 .box11{
@@ -46,6 +44,8 @@ main {
 
 a {
     text-decoration: none;
+    margin:0em
   }
+
 
   
