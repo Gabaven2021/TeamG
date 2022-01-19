@@ -15,7 +15,8 @@ img {
 
 #i_1, #i_2, #i_3 {
     display: flex;
-    width: 600px;
+    width: 35%;
+    min-width: 500px;
     border: solid 1px #000000;
     margin: 10px;
     background-color: #ffffff;
