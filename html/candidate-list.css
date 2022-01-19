@@ -1,11 +1,24 @@
-img {
-    height: 190px;
+body {
+    background-color: #1abc9c;
 }
 
-.candidate {
+img {
+    height: 190px;
+    width: 160px;
+}
+
+#candidate-list {
     display: flex;
-    max-width: 600px;
+    flex-wrap: wrap;
+    
+}
+
+#i_1, #i_2, #i_3 {
+    display: flex;
+    width: 600px;
     border: solid 1px #000000;
+    margin: 10px;
+    background-color: #ffffff;
 }
 
 ul {
