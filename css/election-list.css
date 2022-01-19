@@ -6,34 +6,26 @@ body {
 }
 
 
-main {
-    display: flex;
-}
-
-.parent {
-    display: flex;
+.zyouibotan {
+    display:flex;
   }
   
 .box11{
     padding: 0.5em 1em;
     margin: 2em 4em;
-    color: #5d627b;
+    color: #1abc9c;
     background: white;
-    border-top: solid 5px #5d627b;
+    border-top: solid 5px #1abc9c;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
     width :500px;
-}
-.box11 p {
-    margin: 5; 
-    padding: 2;
 }
 
 .box12{
     padding: 1em 1em;
     margin: 2em 5em;
-    color: #465499;
+    color: #1abc9c;
     background: white;
-    border-top: solid 5px #5d627b;
+    border-top: solid 5px #1abc9c;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
     width :200px;
 }
@@ -47,5 +39,13 @@ a {
     margin:0em
   }
 
+  p {
+    color: #1abc9c;
+  }
+
+  h1 {
+      color: #2c3e50
+  }
+  
 
   
