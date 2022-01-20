@@ -5,6 +5,7 @@ body {
 img {
     height: 190px;
     width: 160px;
+    border-radius: 27px 0 0 27px;
 }
 
 #candidate-list {
@@ -17,7 +18,8 @@ img {
     display: flex;
     width: 35%;
     min-width: 500px;
-    border: solid 1px #000000;
+    border: solid 2px #2c3e50;
+    border-radius: 30px;
     margin: 10px;
     background-color: #ffffff;
 }
