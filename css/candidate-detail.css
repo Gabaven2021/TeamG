@@ -90,4 +90,11 @@ h3 {/*政策の横の線*/
       margin: 0; 
       padding: 0;
   }
-  
+
+.section3 {
+    border: 1px solid rgb(238, 10, 10);
+}
+
+.section4 {
+  border: 1px solid rgb(7, 3, 236);
+}
