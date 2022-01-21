@@ -1,0 +1,100 @@
+span.sample1 {/*名前のローマ字デザイン*/
+    font-family: "Times New Roman";
+}
+h2{/*名前の色*/
+  color:#494949
+}
+.seotext_01 {/*名前の下の線*/
+  border-bottom:solid;
+  border-color:#295890;
+  border-width:3px;/*3ピクセルの太さにする*/
+  }
+h3 {/*政策の横の線*/
+    padding: 0.25em 0.5em;/*上下 左右の余白*/
+    color: #494949;/*文字色*/
+    background: transparent;/*背景透明に*/
+    border-left: solid 5px #295890;/*左線*/
+  }
+  table.company {/*基本情報*/
+    width: 500px;
+    /* margin: 0 auto; */
+    border-collapse: separate;
+    border-spacing: 0px 15px;
+    font-size: 12px;
+    }
+    
+    table.company th,
+    table.company td {
+    padding: 10px;
+    }
+    
+    table.company th {
+    background: #295890;
+    vertical-align: middle;
+    text-align: left;
+    width: 100px;
+    overflow: visible;
+    position: relative;
+    color: #fff;
+    font-weight: normal;
+    font-size: 15px;
+    }
+    
+    table.company th:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-left-color: #295890;
+    border-width: 10px;
+    margin-top: -10px;
+    }
+    /* firefox */
+    @-moz-document url-prefix() {
+    table.company th::after {
+    float: right;
+    padding: 0;
+    left: 30px;
+    top: 10px;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: relative;
+    pointer-events: none;
+    border: 10px solid transparent;
+    border-left: #295890 10px solid;
+    margin-top: -10px;
+    }
+    }
+    
+    table.company td {
+    background: #f8f8f8;
+    width: 360px;
+    padding-left: 20px;
+    }
+  .box2 {/*section4の枠線*/
+      padding: 0.5em 1em;
+      margin: 1em 0;
+      font-weight: normal;
+      color:#494949 ;/*文字色*/
+      background: #FFF;
+      border: solid 1px#494949 ;/*線*/
+      border-radius: 10px;/*角の丸み*/
+  }
+  .box2 p {
+      margin: 0; 
+      padding: 0;
+  }
+
+.section3 {
+    border: 1px solid rgb(238, 10, 10);
+}
+
+.section4 {
+  border: 1px solid rgb(7, 3, 236);
+}
