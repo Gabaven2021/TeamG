@@ -1,4 +1,130 @@
-span.sample1 {/*名前のローマ字デザイン*/
+  body {font-family: "MS Mincho" ;}
+  
+  
+  h2 {
+    position: relative;
+    margin-bottom: 2em;
+    padding: 1.5rem 2rem;
+    border-radius: 10px;
+    background: #eee;
+  }
+  
+  h2:before,
+  h2:after {
+    position: absolute;
+    content: '';
+    border-radius: 50%;
+    background: #eee;
+  }
+  
+  h2:before {
+    bottom: -15px;
+    left: 30px;
+    width: 30px;
+    height: 30px;
+  }
+  
+  h2:after {
+    bottom: -30px;
+    left: 50px;
+    width: 15px;
+    height: 15px;
+  }
+
+
+.flowbtn5{
+  font-family:'Times New Roman',sans-serif;
+  border-radius:13px;		
+  position:relative;
+  display:inline-block;
+  width:50px;
+  height:50px;
+  font-size:33px;
+  color:#fff!important;
+  transition:.5s;
+  text-decoration:none;
+  }
+  
+  .flowbtn5 i{
+  position:absolute;
+  top:50%;
+  left:50%;
+  -ms-transform:translate(-50%,-50%);
+  -webkit-transform:translate(-50%,-50%);
+  transform:translate(-50%,-50%);
+  }
+  
+  .fl_tw1{
+  background:#55acee;
+  }
+  
+  .fl_fb1{
+  background:#3b5998;
+  }
+  
+  
+  .insta_btn5 {
+  background:-webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+  background:linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;		
+  }
+  
+  .insta_btn5:before{
+  content: '';
+  position:absolute;
+  top:17px;
+  left:-1px;
+  width:45px;
+  height:34px;
+  background:-webkit-radial-gradient(#ffdb2c 10%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%);
+  background:radial-gradient(#ffdb2c 5%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%);
+  }
+  
+  .insta_btn5 .fa-instagram{
+  font-size:40px;	
+  }
+  
+  .flowbtn5 div{
+  font-size:11px;
+  color:#666;	
+  position:relative;
+  top:45px;
+  }
+  
+  .flowbtn5:hover{
+  -webkit-transform:translateY(-5px);
+  -ms-transform:translateY(-5px);
+  transform:translateY(-5px);
+  text-decoration:none;
+  }
+  
+  ul.snsbtniti{
+  padding:0!important;
+  list-style-type:none!important;
+  }
+  
+  .snsbtniti{
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:space-around;
+  }
+  
+  .snsbtniti li{
+  flex:0 0 33%;
+  text-align:center!important;
+  }
+
+.section1 {
+  border: 1px solid rgb(235, 17, 17);
+}
+
+.section2 {
+  border: 1px solid rgb(26, 231, 36);
+}
+
+.section4 {
+  border: 1px solid rgb(15, 15, 15);
+
+ span.sample1 {/*名前のローマ字デザイン*/
     font-family: "Times New Roman";
 }
 h2{/*名前の色*/
