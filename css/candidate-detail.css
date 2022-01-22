@@ -225,3 +225,30 @@ h3 {/*政策の横の線*/
 .section4 {
   border: 1px solid rgb(7, 3, 236);
 }
+  
+ .heart {
+  position: absolute;
+  width: 100px;
+  height: 90px;
+  left: 50%;
+  margin-top: -45px;
+  margin-left: -50px;
+}
+.heart:before,
+.heart:after {
+  position: absolute;
+  content: "";
+  left: 50px;
+  top: 0;
+  width: 50px;
+  height: 80px;
+  background: #f88dc8;
+  border-radius: 50px 50px 0 0;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+}
+.heart:after {
+  left: 0;
+  transform: rotate(45deg);
+  transform-origin :100% 100%;
+}
