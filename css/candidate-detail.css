@@ -1,7 +1,9 @@
   body {font-family: "MS Mincho" ;}
+  .section1 img {
+    width: 200px;  /* 横幅を200pxに */
+}
   
-  
-  h3 {
+  h1.copy {
     position: relative;
     margin-bottom: 2em;
     padding: 1.5rem 2rem;
@@ -9,22 +11,22 @@
     background: #eee;
   }
   
-  h2:before,
-  h2:after {
+  h1.copy:before,
+  h1.copy:after {
     position: absolute;
     content: '';
     border-radius: 50%;
     background: #eee;
   }
   
-  h2:before {
+  h1.copy:before {
     bottom: -15px;
     left: 30px;
     width: 30px;
     height: 30px;
   }
   
-  h2:after {
+  h1.copy:after {
     bottom: -30px;
     left: 50px;
     width: 15px;
@@ -123,6 +125,7 @@
 
 .section5 {
   border: 1px solid rgb(15, 15, 15);
+  width: 200px;
 }
 span.sample1 {/*名前のローマ字デザイン*/
     font-family: "Times New Roman";
@@ -227,28 +230,25 @@ h3 {/*政策の横の線*/
 }
   
 .heart {
-  position: absolute;
-  width: 100px;
-  height: 90px;
-  left: 50%;
-  margin-top: -45px;
-  margin-left: -50px;
+  width: 100px;  /* 正方形を作る */
+  height: 100px; /* 正方形を作る */
+  position: relative;/* 基準位置とする */
 }
-.heart:before,
-.heart:after {
-  position: absolute;
-  content: "";
-  left: 50px;
-  top: 0;
-  width: 50px;
-  height: 80px;
-  background: #f88dc8;
-  border-radius: 50px 50px 0 0;
-  transform: rotate(-45deg);
-  transform-origin: 0 100%;
+.heart::before,
+.heart::after {
+  content: "";  /* 疑似要素に必須 */
+  width: 50%;   /* ハートの丸い部分の大きさにかかわる */
+  height: 80%;  /* ハートの高さにかかわる */
+  background: #E0548E; /* ハートの色 */
+  border-radius: 25px 25px 0 0; /* ハートの半円を生成 */
+  display: block; /* ブロック要素にする */
+  position: absolute; /* 相対位置に指定 */
 }
-.heart:after {
-  left: 0;
-  transform: rotate(45deg);
-  transform-origin :100% 100%;
+.heart::before {
+  transform: rotate(-45deg); /* 左に回転 */
+  left: 14%;                 /* 左からの位置を指定 */
+}
+.heart::after {
+  transform: rotate(45deg);  /* 右に回転 */
+  right: 14%;                /* 右からの位置を指定 */
 }
