@@ -1,7 +1,7 @@
   body {font-family: "MS Mincho" ;}
   
   
-  h2 {
+  h3 {
     position: relative;
     margin-bottom: 2em;
     padding: 1.5rem 2rem;
@@ -121,12 +121,13 @@
   border: 1px solid rgb(26, 231, 36);
 }
 
-.section {
+.section5 {
   border: 1px solid rgb(15, 15, 15);
 }
 span.sample1 {/*名前のローマ字デザイン*/
     font-family: "Times New Roman";
 }
+
 h2{/*名前の色*/
   color:#494949
 }
