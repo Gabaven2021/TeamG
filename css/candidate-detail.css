@@ -1,6 +1,7 @@
   body {font-family: "MS Mincho" ;}
   .section1 img {
-    width: 200px;  /* 横幅を200pxに */
+    width: 350px; 
+    position:relative;	
 }
   
   h1.copy {
@@ -115,16 +116,8 @@
   text-align:center!important;
   }
 
-.section1 {
-  border: 1px solid rgb(235, 17, 17);
-}
-
-.section2 {
-  border: 1px solid rgb(26, 231, 36);
-}
 
 .section5 {
-  border: 1px solid rgb(15, 15, 15);
   width: 200px;
 }
 span.sample1 {/*名前のローマ字デザイン*/
@@ -222,9 +215,11 @@ h3 {/*政策の横の線*/
   }
   
 .heart {
-  width: 100px;  /* 正方形を作る */
-  height: 100px; /* 正方形を作る */
-  position: relative;/* 基準位置とする */
+  width: 50px;  /* 正方形を作る */
+  height: 50px; /* 正方形を作る */
+  position:absolute;
+		bottom: 250px;
+		left:300px;
 }
 .heart::before,
 .heart::after {
