@@ -123,8 +123,8 @@
 
 .section {
   border: 1px solid rgb(15, 15, 15);
-
- span.sample1 {/*名前のローマ字デザイン*/
+}
+span.sample1 {/*名前のローマ字デザイン*/
     font-family: "Times New Roman";
 }
 h2{/*名前の色*/
@@ -225,7 +225,7 @@ h3 {/*政策の横の線*/
   border: 1px solid rgb(7, 3, 236);
 }
   
- .heart {
+.heart {
   position: absolute;
   width: 100px;
   height: 90px;
