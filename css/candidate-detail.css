@@ -136,14 +136,14 @@ h2{/*名前の色*/
 }
 .seotext_01 {/*名前の下の線*/
   border-bottom:solid;
-  border-color:#295890;
+  border-color:#2c3e50;
   border-width:3px;/*3ピクセルの太さにする*/
   }
 h3 {/*政策の横の線*/
     padding: 0.25em 0.5em;/*上下 左右の余白*/
     color: #494949;/*文字色*/
     background: transparent;/*背景透明に*/
-    border-left: solid 5px #295890;/*左線*/
+    border-left: solid 5px #2c3e50;/*左線*/
   }
   table.company {/*基本情報*/
     width: 500px;
@@ -159,7 +159,7 @@ h3 {/*政策の横の線*/
     }
     
     table.company th {
-    background: #295890;
+    background: #2c3e50;
     vertical-align: middle;
     text-align: left;
     width: 100px;
@@ -180,7 +180,7 @@ h3 {/*政策の横の線*/
     position: absolute;
     pointer-events: none;
     border-color: rgba(136, 183, 213, 0);
-    border-left-color: #295890;
+    border-left-color: #2c3e50;
     border-width: 10px;
     margin-top: -10px;
     }
@@ -197,7 +197,7 @@ h3 {/*政策の横の線*/
     position: relative;
     pointer-events: none;
     border: 10px solid transparent;
-    border-left: #295890 10px solid;
+    border-left: #2c3e50 10px solid;
     margin-top: -10px;
     }
     }
@@ -220,14 +220,6 @@ h3 {/*政策の横の線*/
       margin: 0; 
       padding: 0;
   }
-
-.section3 {
-    border: 1px solid rgb(238, 10, 10);
-}
-
-.section4 {
-  border: 1px solid rgb(7, 3, 236);
-}
   
 .heart {
   width: 100px;  /* 正方形を作る */
