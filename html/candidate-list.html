@@ -1,1 +1,66 @@
 <!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF=8">
+        <title>候補者一覧</title>
+        <link rel="stylesheet" href="../css/candidate-list.css">
+        <link href="../css/index.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html#page-top">佐賀選挙サイト サガセン</a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="../index.html#start-election">選挙を始めよう</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="../index.html#about">サガセンについて</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="../index.html#contact">お問合せ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header></header>
+        <main id="candidate-list" style="padding-top: 8rem">
+            <div id="i_1">
+                <img src="../assets/img/start-election/test.png">
+                <ul>
+                    <li>富永あけみ</li>
+                    <li>無所属</li>
+                    <li>よろしくお願いします</li>
+                </ul>
+            </div>
+            <div id="i_2">
+                <img src="../assets/img/start-election/no_photo.png">
+                <ul>
+                    <li>田中あきら</li>
+                    <li>無所属</li>
+                    <li>よろしくお願いします</li>
+                </ul>
+            </div>
+            <div id="i_3">
+                <img src="../assets/img/start-election/no_photo.png">
+                <ul>
+                    <li>鈴木まさし</li>
+                    <li>無所属</li>
+                    <li>よろしくお願いします</li>
+                </ul>
+            </div>
+
+            <script src="../js/jquery-3.6.0.min.js"></script>
+            <script src="../js/jquery.csv.min.js"></script>
+            <script src="../js/readcsv.js"></script>
+            <script>
+                function getcsv() {
+                    var csvfile = [1,2,3]
+                }
+            </script>
+        </main>
+        <footer></footer>
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
