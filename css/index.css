@@ -154,7 +154,6 @@ h6, .h6 {
 }
 
 p {
-  margin-top: 0;
   margin-bottom: 1rem;
 }
 
@@ -237,7 +236,7 @@ sup {
 
 a {
   color: #1abc9c;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:hover {
   color: #15967d;
