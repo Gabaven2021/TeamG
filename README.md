@@ -3,6 +3,8 @@
 - 木村龍太郎　ryutaro-kimura(と間違えてコミットログを残したsgupge2133)
 - 江口昇吾　naruto-0
 - 高妻大地　DDDaichi
+- 牧山弥生　yayoi0311
+- 松井涼葉　suzu0826
 
 ## トーン
 紺色　#2c3e50
